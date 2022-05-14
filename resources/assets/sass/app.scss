@@ -1,0 +1,32 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Colours
+@import "colors/colors";
+
+// Custom SASS
+@import "buttons/buttons";
+@import "inputs/inputs";
+@import "labels/labels";
+@import "modal/modal";
+@import "nav/nav";
+@import "table/table";
+@import "typography/typography";
+@import "footer/footer";
+
+body {
+  background-color: $body-bg;
+  font-family: $font-family-sans-serif;
+  line-height: $line-height-base;
+  font-weight: 400;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}

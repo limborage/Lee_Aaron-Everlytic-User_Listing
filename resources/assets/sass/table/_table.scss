@@ -1,0 +1,32 @@
+// Table
+table{
+  // User Table
+  &.user-table {
+    margin-top: 5rem;
+  }
+}
+
+table.no-spacing {
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}
+
+// Table Row
+tbody tr:nth-child(even) {background: $body-bg}
+tbody tr:nth-child(odd) {background: $odd-row-grey}
+
+.table {
+  > tbody {
+    > tr {
+      > td {
+        vertical-align:middle;
+        border: none;
+        font-family: $font-family-sans-serif;
+        font-size: $font-size-base;
+        font-weight: bold;
+        line-height: $line-height-base;
+        color: $text-color;
+      }
+    }
+  }
+}

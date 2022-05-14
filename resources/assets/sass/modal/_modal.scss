@@ -1,0 +1,40 @@
+.modal {
+  text-align: center;
+
+  @media only screen and (min-width: 768px) {
+    &:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+    }
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+
+  .modal-content {
+    border-radius: 5px;
+  }
+
+  .modal-header {
+    border-bottom: none;
+
+    h4 {
+      font-family: $font-family-sans-serif;
+      border-bottom: 1px solid $input-border;
+      padding: 15px 0px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #000000;
+    }
+  }
+
+  .modal-footer {
+    border-top: none;
+    padding: 5px 15px;
+  }
+}

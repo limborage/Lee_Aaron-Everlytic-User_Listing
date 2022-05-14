@@ -1,0 +1,30 @@
+button {
+  &.btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+
+    &.index-button {
+      padding: 10px 1rem;
+    }
+
+    &.btn-main {
+      background: $black;
+      color: $white;
+      margin: 1rem 0rem !important;
+
+      &:hover {
+        color: $lightest-grey;
+      }
+    }
+
+    &.btn-ghost {
+      background-color: transparent;
+      color: $black;
+      border: 3px solid transparent;
+
+      &:hover {
+        background: $light-grey;
+      }
+    }
+  }
+}
