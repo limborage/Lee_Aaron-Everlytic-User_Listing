@@ -32,7 +32,11 @@ If there is a failure, try using composer 1.10.26.
 
 ## Running the application
 
-Once you have all your required packages installed, you can run the application using laravel's built in server, but running `php artisan serve`, or setting up your own server such as IIS and pointing it to the public folder and making sure it has PHP as a handler mapping.
+Once you have all your required packages installed
+
+you need to create a file named `.env` and copy the contents of `.env.example` and update the settings in the `.env` to connect to your database.
+
+you can run the application using laravel's built in server, but running `php artisan serve`, or setting up your own server such as IIS and pointing it to the public folder and making sure it has PHP as a handler mapping.
 
 ## Running tests
 
