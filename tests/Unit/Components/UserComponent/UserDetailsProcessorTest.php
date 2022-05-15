@@ -3,7 +3,7 @@
 namespace Components\UserComponent;
 
 use App\Components\UserComponent\UserDetailsProcessor;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class UserDetailsProcessorTest extends TestCase
 {

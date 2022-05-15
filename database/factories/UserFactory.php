@@ -1,7 +1,6 @@
 <?php
 
 use Faker\Generator as Faker;
-use Tests\Database\UserDatabaseTest;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +18,7 @@ $factory->define(App\User::class, function (Faker $faker) {
         'name' => $faker->firstName,
         'surname' => $faker->lastName,
         'email' => $faker->companyEmail,
-        'position' => $faker->jobTitle,
+        'position' => $faker->text(45),
         'created_at' => $faker->dateTime,
         'updated_at' => $faker->dateTime
     ];

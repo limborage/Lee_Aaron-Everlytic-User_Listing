@@ -168,7 +168,7 @@ $(document).on('click', '.delete-user', manageUserDelete);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\13laa\Documents\Systems\developer-test\task1\UserRegistry\resources\assets\js\user_modal.js */"./resources/assets/js/user_modal.js");
+module.exports = __webpack_require__(/*! C:\Users\13laa\Documents\Systems\user_registry_listing_everlytic\resources\assets\js\user_modal.js */"./resources/assets/js/user_modal.js");
 
 
 /***/ })
