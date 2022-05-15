@@ -15,6 +15,14 @@
 
             @isset($users)
                 <table class="table">
+                    <thead>
+                    <tr class="light-grey-bg">
+                        <th class="text-center">Full Name</th>
+                        <th class="text-center">Email Address</th>
+                        <th class="text-center">Position</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                    </thead>
                     <tbody>
                     @foreach($users as $user)
                         <tr>
@@ -30,16 +38,16 @@
                     </tbody>
                 </table>
 
-            <div class="pull-right">
-                {{ $users->links() }}
-            </div>
+                <div class="pull-right">
+                    {{ $users->links() }}
+                </div>
             @endisset
         </form>
 
         @include('users.modals.add_user_modal')
         @include('users.modals.delete_user_modal')
-@endsection
+        @endsection
 
-@section('post_scripts')
-    <script src="{{asset('js/user_modal.js')}}"></script>
+        @section('post_scripts')
+            <script src="{{asset('js/user_modal.js')}}"></script>
 @endsection

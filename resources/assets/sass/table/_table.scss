@@ -30,3 +30,11 @@ tbody tr:nth-child(odd) {background: $odd-row-grey}
     }
   }
 }
+
+
+tr {
+  &.light-grey-bg {
+    background-color: $table-header-bg;
+    color: $black;
+  }
+}
