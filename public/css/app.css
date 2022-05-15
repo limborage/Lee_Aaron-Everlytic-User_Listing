@@ -8402,6 +8402,11 @@ tbody tr:nth-child(odd) {
   color: #636b6f;
 }
 
+tr.light-grey-bg {
+  background-color: #a6a6a6;
+  color: #000000;
+}
+
 .confirm-delete-text {
   color: #636b6f;
   font-weight: normal;
